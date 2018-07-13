@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.calendar-table-container {
+  border: 1px solid #CCCCCC;
+  margin: 0 20px;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+.calendar-table {
+  border-style: hidden;
+  border-collapse:collapse;
+}
+
+.calendar-header-month-year {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.calendar-header-day {
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.calendar-header-days {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.calendar-header-day:first-of-type,
+.calendar-header-day:last-of-type,
+.week .calendar-day:first-child,
+.week .calendar-day:last-child {
+  color: red;
+}
+
+.calendar-day {
+  font-size: 16px;
+}
+
+td {
+  padding: 13px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.calButton {
+    background-color: #CCCCCC;
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
